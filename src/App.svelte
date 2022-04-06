@@ -3,7 +3,7 @@
 </script>
 
 <main>
-	<iframe title="powerfleet-LV450-reefer-tracking" width="1540" height="941.25" src="https://app.powerbi.com/reportEmbed?reportId=fb3f43ae-c4ac-4f17-8432-9f3165184139&groupId=5289e89f-38bb-49db-a4d2-dda0678fd390&autoAuth=true&ctid=6dcbebd0-f8d0-4a9d-89e5-5873e8146b0a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWNlbnRyYWwtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
+	<iframe title="powerfleet-LV450-reefer-tracking - Page 1" width="1540" height="941.25" src="https://app.powerbi.com/view?r=eyJrIjoiOGJjYTA0MzktMWY4MS00M2I4LTkzYTctMjRmNzQ1YjU1YjU5IiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
 </main>
 
 <style>
