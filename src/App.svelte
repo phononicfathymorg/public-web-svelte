@@ -4,7 +4,7 @@
 
 <main>
 	<header class="App-header">
-		<a href="https://powerfleet.fathym-it.com/"><img src="assets/powerfleet-logo-80.jpg" class="pf-logo" alt="logo" /></a>
+		<a href="https://powerfleet.fathym-it.com/"><img src="./assets/powerfleet-logo-80.jpg" class="pf-logo" alt="logo" /></a>
 		<div class="siteNav">
 			<a href="https://powerfleet.fathym-it.com/dash1" target="_blank">
 			<button class="navbutton">Dash 1</button>
@@ -21,7 +21,7 @@
 		<iframe title="powerfleet-LV450-reefer-tracking - Page 1" width="1540" height="941.25" src="https://app.powerbi.com/view?r=eyJrIjoiOGJjYTA0MzktMWY4MS00M2I4LTkzYTctMjRmNzQ1YjU1YjU5IiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
 		<div class="builtin">
 			Built in Svelte<br>
-			<img src="assets/svelte2.jpg" class="frameworkImage" alt="Svelte" />
+			<img src="./assets/svelte2.jpg" class="frameworkImage" alt="Svelte" />
 		</div>
 	</div>
 </main>
