@@ -6,13 +6,13 @@
 	<header class="App-header">
 		<a href="https://powerfleet.fathym-it.com/"><img src="./assets/powerfleet-logo-80.jpg" class="pf-logo" alt="logo" /></a>
 		<div class="siteNav">
-			<a href="https://powerfleet.fathym-it.com/dash1" target="_blank">
+			<a href="https://powerfleet.fathym-it.com/dash1/" target="_blank">
 			<button class="navbutton">Dash 1</button>
 			</a>
-			<a href="https://powerfleet.fathym-it.com/dash2" target="_blank">
+			<a href="https://powerfleet.fathym-it.com/dash2/" target="_blank">
 			<button class="navbutton">Dash 2</button>
 			</a>
-			<a href="https://powerfleet.fathym-it.com/dash3" target="_blank">
+			<a href="https://powerfleet.fathym-it.com/dash3/" target="_blank">
 			<button class="navbutton">Dash 3</button>
 			</a>
 		</div>
