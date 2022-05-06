@@ -12,6 +12,9 @@
 			<a href="https://powerfleet.fathym-it.com/dash2/">
 			<button class="navbutton">Dash 2</button>
 			</a>
+			<a href="https://powerfleet.fathym-it.com/dash3/">
+			<button class="navbutton">Dash 3</button>
+			</a>
 		</div>
 	</header>
 	<div class="dashboard">
