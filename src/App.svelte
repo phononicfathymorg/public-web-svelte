@@ -17,12 +17,14 @@
 			</a>
 		</div>
 	</header>
+	<br>
 	<div class="dashboard">
-		<iframe title="powerfleet-LV450-reefer-tracking - Page 1" width="1540" height="941.25" src="https://app.powerbi.com/view?r=eyJrIjoiOGJjYTA0MzktMWY4MS00M2I4LTkzYTctMjRmNzQ1YjU1YjU5IiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameborder="0"></iframe>
-		<div class="builtin">
-			Built in Svelte<br>
-			<img src="./assets/svelte2.jpg" class="frameworkImage" alt="Svelte" />
-		</div>
+		<iframe title="powerfleet-LV450-reefer-tracking - Page 1" class="responsive-iframe" src="https://app.powerbi.com/view?r=eyJrIjoiOGJjYTA0MzktMWY4MS00M2I4LTkzYTctMjRmNzQ1YjU1YjU5IiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameborder="0"></iframe>	
+	</div>
+	<br>
+	<div class="builtin">
+		Built in Svelte<br>
+		<img src="./assets/svelte2.jpg" class="frameworkImage" alt="Svelte" />
 	</div>
 </main>
 
@@ -57,7 +59,7 @@
 		padding: 1rem 0 2rem 4rem;
 	}
 
-	@media only screen and (max-width: 600px) {
+	@media only screen and (max-width: 650px) {
 		.siteNav {
 			float: left;
 			padding: 1rem;
@@ -77,8 +79,11 @@
 
 	.dashboard {
 		text-align: center;
-		padding-top: 1rem;
 		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		padding-top: 56.25%;
 	}
 		
 	.builtin {
@@ -95,5 +100,15 @@
 	.frameworkImage {
 		padding-top:1rem;
 		height: 100px;
+	}
+
+	.responsive-iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
 	}
 </style>
