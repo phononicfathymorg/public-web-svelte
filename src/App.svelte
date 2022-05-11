@@ -7,18 +7,18 @@
 		<a href="https://powerfleet.fathym-it.com/"><img src="./assets/powerfleet-logo-80.jpg" class="pf-logo" alt="logo" /></a>
 		<div class="siteNav">
 			<a href="https://powerfleet.fathym-it.com/dash1/">
-			<button class="navbutton">Dash 1</button>
+				<button class="navbutton">Dash 1</button>
 			</a>
 			<a href="https://powerfleet.fathym-it.com/dash2/">
-			<button class="navbutton">Dash 2</button>
+				<button class="navbutton">Dash 2</button>
 			</a>
 			<a href="https://powerfleet.fathym-it.com/dash3/">
-			<button class="navbutton">Dash 3</button>
+				<button class="navbutton">Dash 3</button>
 			</a>
 		</div>
 	</header>
 	<div class="dashboard">
-		<iframe title="powerfleet-LV450-reefer-tracking - Page 1" width="1540" height="941.25" src="https://app.powerbi.com/view?r=eyJrIjoiOGJjYTA0MzktMWY4MS00M2I4LTkzYTctMjRmNzQ1YjU1YjU5IiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+		<iframe title="powerfleet-LV450-reefer-tracking - Page 1" width="1540" height="941.25" src="https://app.powerbi.com/view?r=eyJrIjoiOGJjYTA0MzktMWY4MS00M2I4LTkzYTctMjRmNzQ1YjU1YjU5IiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameborder="0"></iframe>
 		<div class="builtin">
 			Built in Svelte<br>
 			<img src="./assets/svelte2.jpg" class="frameworkImage" alt="Svelte" />
@@ -26,8 +26,7 @@
 	</div>
 </main>
 
-<style>
-	
+<style>	
 	.App-header {
 		background-color: #fff;
 	}
@@ -51,9 +50,29 @@
 	}
 
 	.pf-logo {
-		width: 345px;
-		height: 70px;
+		width: 100%;
+		height: auto;
+		max-width: 345px;
+		max-height: 70px;
 		padding: 1rem 0 2rem 4rem;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.siteNav {
+			float: left;
+			padding: 1rem;
+		}
+		
+		.navbutton {
+			padding: 7px 16px;
+			margin: 2px 5px;
+		}
+
+		.pf-logo {
+			width: 100%;
+			height: auto;
+			padding: 1rem 0 1rem 1rem;
+		}
 	}
 
 	.dashboard {
