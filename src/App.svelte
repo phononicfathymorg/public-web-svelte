@@ -4,23 +4,23 @@
 
 <main>
 	<header class="App-header">
-		<a href="https://powerfleet.fathym-it.com/"><img src="./assets/powerfleet-logo-80.jpg" class="pf-logo" alt="logo" /></a>
+		<a href="https://phononic.fathym-it.com/"><img src="./assets/phononic380.jpg" class="pf-logo" alt="logo" /></a>
 		<div class="siteNav">
-			<a href="https://powerfleet.fathym-it.com/dash1/">
+			<a href="https://phononic.fathym-it.com/dash1/">
 				<button class="navbutton">Dash 1</button>
 			</a>
-			<a href="https://powerfleet.fathym-it.com/dash2/">
+			<a href="https://phononic.fathym-it.com/dash2/">
 				<button class="navbutton">Dash 2</button>
 			</a>
-			<a href="https://powerfleet.fathym-it.com/dash3/">
+			<a href="https://phononic.fathym-it.com/dash3/">
 				<button class="navbutton">Dash 3</button>
 			</a>
 		</div>
 	</header>
 	<br>
 	<div class="dashboard">
-		<iframe title="powerfleet-LV450-reefer-tracking - Page 1" class="responsive-iframe" src="https://app.powerbi.com/view?r=eyJrIjoiOGJjYTA0MzktMWY4MS00M2I4LTkzYTctMjRmNzQ1YjU1YjU5IiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameborder="0"></iframe>	
-	</div>
+		<iframe title="phononic-thermal-tracking" class="responsive-iframe" src="https://app.powerbi.com/view?r=eyJrIjoiNTFlNjAwYWUtOWY4Yi00ZDE4LWE2MmQtNDI1MTkxOTdkZmIwIiwidCI6IjZkY2JlYmQwLWY4ZDAtNGE5ZC04OWU1LTU4NzNlODE0NmIwYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+	  </div>
 	<br>
 	<div class="builtin">
 		Built in Svelte<br>
@@ -54,7 +54,7 @@
 	.pf-logo {
 		width: 100%;
 		height: auto;
-		max-width: 345px;
+		max-width: 380px;
 		max-height: 70px;
 		padding: 1rem 0 2rem 4rem;
 	}
